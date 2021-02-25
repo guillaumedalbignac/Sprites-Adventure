@@ -1,0 +1,7 @@
+﻿  projectile.cpp
+c:\users\dalbi\desktop\bts\2 eme annee\informatique\m.dubois\c++\sfml + revisions\cours sfml\tp5_jeu_v1\tp1\tp1\tp1\projectile.cpp(99): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+  TP1.vcxproj -> C:\Users\dalbi\Desktop\BTS\2 EME ANNEE\INFORMATIQUE\M.Dubois\C++\SFML + Revisions\Cours SFML\TP5_Jeu_V1\tp1\TP1\Debug\TP1.exe
