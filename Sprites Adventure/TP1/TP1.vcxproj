@@ -76,11 +76,11 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\dalbi\Desktop\BTS\2 EME ANNEE\INFORMATIQUE\M.Dubois\C++\SFML + Revisions\Cours SFML\TP5_Jeu_V1\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\include</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
-      <AdditionalLibraryDirectories>C:\Users\dalbi\Desktop\BTS\2 EME ANNEE\INFORMATIQUE\M.Dubois\C++\SFML + Revisions\Cours SFML\TP5_Jeu_V1\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>C:\Users\dalbi\Desktop\BTS\2 EME ANNEE\INFORMATIQUE\M.Dubois\C++\SFML + Revisions\Cours SFML\TP5_Jeu_V1\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-graphics-d.lib;C:\Users\dalbi\Desktop\BTS\2 EME ANNEE\INFORMATIQUE\M.Dubois\C++\SFML + Revisions\Cours SFML\TP5_Jeu_V1\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-window-d.lib;C:\Users\dalbi\Desktop\BTS\2 EME ANNEE\INFORMATIQUE\M.Dubois\C++\SFML + Revisions\Cours SFML\TP5_Jeu_V1\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-system-d.lib;C:\Users\dalbi\Desktop\BTS\2 EME ANNEE\INFORMATIQUE\M.Dubois\C++\SFML + Revisions\Cours SFML\TP5_Jeu_V1\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-audio-d.lib;C:\Users\dalbi\Desktop\BTS\2 EME ANNEE\INFORMATIQUE\M.Dubois\C++\SFML + Revisions\Cours SFML\TP5_Jeu_V1\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-graphics-d.lib;C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-window-d.lib;C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-system-d.lib;C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-audio-d.lib;C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\SFML-2.5.1-windows-vc15-32-bit\SFML-2.5.1\lib\sfml-network-d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
