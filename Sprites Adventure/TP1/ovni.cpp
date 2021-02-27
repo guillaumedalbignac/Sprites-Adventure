@@ -10,7 +10,7 @@ Ovni::Ovni(string path) {
 	}
 
 	//Mise en place du sprite (texture) du vaisseau
-	if (path == "../sprite.png") {
+	if (path == "../vaisseau.png") {
 		sprite.setTexture(texture);
 		sprite.scale(0.10f, 0.10f);
 		sprite.setPosition(640, 675);
@@ -18,7 +18,7 @@ Ovni::Ovni(string path) {
 	}
 
 	//Mise en place du sprite (texture) des astéroïdes
-	if (path == "../badoit.png") {
+	if (path == "../asteroides.png") {
 		sprite.setTexture(texture);
 		sprite.scale(0.20f, 0.20f);
 		sprite.setPosition(100, 600);

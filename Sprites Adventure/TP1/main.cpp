@@ -19,7 +19,7 @@ int main()
 	window.setFramerateLimit(60);		//Vérouillage des images par seconds
 
 	Image icon;
-	icon.loadFromFile("../badoit.bmp");
+	icon.loadFromFile("../vaisseau.bmp");
 	window.setIcon(225, 225, icon.getPixelsPtr());
 
 	//Déclaration des objets et variables
@@ -151,7 +151,7 @@ int main()
 				menu.descendre();
 			}
 
-		window.clear(Color(0, 0, 20));		
+		window.clear(Color(204, 204, 204));	//Ici on peut régler la couleur d'arrière plan de la fenêtre		
 
 		if (menuDisplay) {
 			menu.mettreAJour(true);

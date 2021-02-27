@@ -11,8 +11,8 @@ Menu::Menu()
 		cout << "Erreur font copyright display !..." << endl;
 	}
 
-	menu[0].setFillColor(Color::Red);
-	menu[1].setFillColor(Color::White);
+	menu[0].setFillColor(Color::Yellow);
+	menu[1].setFillColor(Color::Black);
 }
 
 void Menu::afficherMenu(RenderWindow & window)
@@ -29,7 +29,7 @@ void Menu::mettreAJour(bool display)
 	if (display == true) {
 		text.setFont(font);
 		text.setString("Sprites Adventures");
-		text.setFillColor(Color::White);
+		text.setFillColor(Color::Black);
 		text.setPosition(90, 180);
 		text.setStyle(Text::Italic && Text::Bold);
 		text.setCharacterSize(105);
@@ -55,16 +55,16 @@ void Menu::mettreAJour(bool display)
 
 void Menu::monter()
 {
-	menu[0].setFillColor(Color::Red);
-	menu[1].setFillColor(Color::White);
+	menu[0].setFillColor(Color::Yellow);
+	menu[1].setFillColor(Color::Black);
 	
 	itemIndex = 1;
 }
 
 void Menu::descendre()
 {
-	menu[0].setFillColor(Color::White);
-	menu[1].setFillColor(Color::Red); 
+	menu[0].setFillColor(Color::Black);
+	menu[1].setFillColor(Color::Yellow); 
 
 	itemIndex = 2;
 }
@@ -73,7 +73,7 @@ void Menu::afficherGameOver(RenderWindow & window)
 {
 	text.setFont(font);
 	text.setString("Game Over ! Press R to restart");
-	text.setFillColor(Color::White);
+	text.setFillColor(Color::Black);
 	text.setPosition(50, 350);
 	text.setStyle(Text::Italic && Text::Bold);
 	text.setCharacterSize(70);
@@ -84,7 +84,7 @@ void Menu::afficherCopyright(RenderWindow & window)
 {
 	copyright.setFont(fontCopyright);
 	copyright.setString("Lycée Jules Verne  © Guillaume d'Albignac 2019");
-	copyright.setFillColor(Color::White);
+	copyright.setFillColor(Color::Black);
 	copyright.setPosition(895, 690);
 	copyright.setCharacterSize(20);
 	window.draw(copyright);

@@ -18,7 +18,7 @@ void Score::mettreAJour(long int scoreJoueur)
 {		
 	text.setFont(font);
 	text.setString("Score : " + to_string(scoreJoueur) + " points");
-	text.setFillColor(Color::White);
+	text.setFillColor(Color::Black);
 	text.setPosition(425, 2);
 	text.setStyle(Text::Regular);
 	text.setCharacterSize(43);

@@ -4,7 +4,7 @@ using namespace std;
 using namespace sf;
 
 //Appel du constructeur de la classe mère Ovni par liste d'initialisation
-Vaisseau::Vaisseau() : Ovni("../sprite.png")	
+Vaisseau::Vaisseau() : Ovni("../vaisseau.png")	
 {		
 	
 }

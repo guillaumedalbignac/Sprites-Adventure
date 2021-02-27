@@ -4,7 +4,7 @@
 using namespace std;
 using namespace sf;
 
-Asteroide::Asteroide() : Ovni("../badoit.png"){
+Asteroide::Asteroide() : Ovni("../asteroides.png"){
 	//Générateur de nombres aléatoires
 	random_device rd;
 	mt19937 rng(rd());
