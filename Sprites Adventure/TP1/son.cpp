@@ -5,7 +5,7 @@ using namespace sf;
 Son::Son()
 {
 	//Détection d'erreur de chargement de la music
-	if (!music.openFromFile("../Blazer_Rail.wav")) {
+	if (!music.openFromFile("../musique.wav")) {
 		cout << "Music Loading Error ...!" << endl;
 	}
 
@@ -27,13 +27,13 @@ Son::~Son()
 
 void Son::diffuserMusic()
 {
-	music.setVolume(25);
+	music.setVolume(0.5);
 	music.play();
 }
 
 void Son::diffuserCloche()
 {
 	soundCloche.setBuffer(buffer);	//Création du buffer
-	soundCloche.setVolume(28);	//Ajustement du volume
+	soundCloche.setVolume(10);	//Ajustement du volume
 	soundCloche.play();
 }
