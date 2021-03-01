@@ -17,8 +17,12 @@ void Explosion::mettreAJour(float deltaT)
 {
 	if (cropFactor >= 0 && touche == true) {		//cropFactor < 0.75 && touche == true
 		cropFactor = cropFactor + deltaT * 1;
-		/*cout << cropFactor << endl;*/
+		//cout << cropFactor << endl;
 		sprite.setScale(cropFactor, cropFactor);
+
+		if (cropFactor >= 3) {
+			cropFactor = cropFactor - deltaT * 1;
+		}
 	}
 	else {
 		sprite.setScale(0, 0);
