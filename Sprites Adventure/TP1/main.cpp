@@ -92,7 +92,17 @@ int main()
 					score.mettreAJour(0);
 					menuDisplay = true;
 					partieDemarree = false;
-				}					
+				}	
+
+				//Redemarrage de la partie au clavier
+				if (event.type == Event::KeyPressed && event.key.code == Keyboard::R) {
+					cout << "Redemarrage du jeu" << endl;
+					jeu.clear();
+					scoreFinal = 0;
+					score.mettreAJour(0);
+					menuDisplay = true;
+					partieDemarree = false;
+				}
 			} 
 
 			//Restart de la partie joystick
@@ -103,15 +113,6 @@ int main()
 				menuDisplay = true;
 				partieDemarree = false;
 			}*/
-
-			//Restart de la partie au clavier
-			if (event.type == Event::KeyPressed && event.key.code == Keyboard::R) {
-				jeu.clear();
-				scoreFinal = 0;
-				score.mettreAJour(0);
-				menuDisplay = true;
-				partieDemarree = false;
-			}
 
 			//Action des choix du menu joystick
 			/*if (menu.itemSelectione() == 1 && Joystick::isButtonPressed(0, 3)) {
