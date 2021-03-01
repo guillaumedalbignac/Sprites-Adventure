@@ -179,7 +179,7 @@ int main()
 			//Détection des chocs aveec les projectiles
 			if (p1.calculerDistance(a1) <= 50) {
 				scoreFinal  = scoreFinal + 5; // +15 points par astéroides touchés
-				cout << " +15 " << endl;
+				cout << " +15 " << endl;				
 				s1.diffuserCloche();							
 			}
 			if (p1.calculerDistance(a2) <= 50) {
@@ -193,13 +193,13 @@ int main()
 				s1.diffuserCloche();
 			}
 
-			//Affichage du message de Game Over
+			//Affichage du message de Game Over			
+			p1.afficher(window);
+			element->afficher(window);	
+			score.afficherScore(window);
 			if (gameOver == true) {
 				menu.afficherGameOver(window);
 			}
-			p1.afficher(window);
-			element->afficher(window);	
-			score.afficherScore(window);			
 		}		
 		menu.afficherCopyright(window);
 		window.display();		
