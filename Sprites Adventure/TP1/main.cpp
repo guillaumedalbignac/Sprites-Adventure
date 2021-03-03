@@ -20,7 +20,7 @@ int main()
 
 	Image icon;
 	icon.loadFromFile("../vaisseau.bmp");
-	window.setIcon(225, 225, icon.getPixelsPtr());
+	window.setIcon(750, 422, icon.getPixelsPtr());
 
 	//Déclaration des objets et variables
 	Clock clock;
