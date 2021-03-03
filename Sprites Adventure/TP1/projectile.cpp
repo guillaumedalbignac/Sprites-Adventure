@@ -11,7 +11,7 @@ Projectile::Projectile() : Ovni("../projectile.png")
 void Projectile::actualiserEtat(Event const & event)
 {
 	//Gestion au Clavier
-
+	/*
 	if (event.type == Event::KeyPressed && event.key.code == Keyboard::Space) {
 		lancerProjectile = true;
 	}
@@ -26,26 +26,26 @@ void Projectile::actualiserEtat(Event const & event)
 	}
 	else if (event.type == Event::KeyReleased && event.key.code == Keyboard::Right) {
 		tournerDroite = false;
-	}
+	}*/
 
 	//Gestion au Joystick
 
-	/*if (Joystick::isButtonPressed(0, 0)) {
+	if (Joystick::isButtonPressed(0, 5)) {
 		lancerProjectile = true;
 	}
-	if (Joystick::getAxisPosition(0, Joystick::R) > 80) {
+	if (Joystick::getAxisPosition(0, Joystick::X) > 80) {
 		tournerDroite = true;
 	}
 	else {
 		tournerDroite = false;
 	}
 
-	if (Joystick::getAxisPosition(0, Joystick::R) < -80) {
+	if (Joystick::getAxisPosition(0, Joystick::X) < -80) {
 		tournerGauche = true;
 	}
 	else {
 		tournerGauche = false;
-	}*/
+	}
 }
 
 void Projectile::mettreAJour(float vaisseauPositionX, float vaisseauPositionY, float deltaT)

@@ -68,7 +68,7 @@ int main()
 				}
 
 				//Déplacement dans le menu clavier
-				if (event.type == Event::KeyPressed && event.key.code == Keyboard::Up) {
+				/*if (event.type == Event::KeyPressed && event.key.code == Keyboard::Up) {
 					menu.monter();
 				}
 				if (event.type == Event::KeyPressed && event.key.code == Keyboard::Down) {
@@ -83,50 +83,50 @@ int main()
 				if (menu.itemSelectione() == 2 && event.type == Event::KeyPressed && event.key.code == Keyboard::Enter) {	
 					event.type = Event::Closed;	//Si "Exit" est selectionné on ferme le jeu
 					window.close();
-				}				
+				}	*/			
 
 				//Retour menu clavier
-				if (event.type == Event::KeyPressed && event.key.code == Keyboard::M) {	 //Si "M" est appuyé on arrive au menu
+				/*if (event.type == Event::KeyPressed && event.key.code == Keyboard::M) {	 //Si "M" est appuyé on arrive au menu
 					jeu.clear();
 					scoreFinal = 0;
 					score.mettreAJour(0);
 					menuDisplay = true;
 					partieDemarree = false;
-				}	
+				}*/	
 
 				//Redemarrage de la partie au clavier
-				if (event.type == Event::KeyPressed && event.key.code == Keyboard::R) {
+				/*if (event.type == Event::KeyPressed && event.key.code == Keyboard::R) {
 					cout << "Redemarrage du jeu" << endl;
 					jeu.clear();
 					scoreFinal = 0;
 					score.mettreAJour(0);
 					menuDisplay = true;
 					partieDemarree = false;
-				}
+				}*/
 			} 
 
 			//Restart de la partie joystick
-			/*if (Joystick::isButtonPressed(0, 1)) {
+			if (Joystick::isButtonPressed(0, 2)) {
 				jeu.clear();
 				scoreFinal = 0;
 				score.mettreAJour(0);
 				menuDisplay = true;
 				partieDemarree = false;
-			}*/
+			}
 
 			//Action des choix du menu joystick
-			/*if (menu.itemSelectione() == 1 && Joystick::isButtonPressed(0, 3)) {
+			if (menu.itemSelectione() == 1 && Joystick::isButtonPressed(0, 0)) {
 				jeu.clear();
 				partieDemarree = true;
 				menuDisplay = false;
 			}
-			if (menu.itemSelectione() == 2 && Joystick::isButtonPressed(0, 3)) {
+			if (menu.itemSelectione() == 2 && Joystick::isButtonPressed(0, 0)) {
 				event.type = Event::Closed;	
 				window.close();
-			}*/
+			}
 
 			//Action des choix du menu clavier
-			if (menu.itemSelectione() == 1 && event.type == Event::KeyPressed && event.key.code == Keyboard::Enter) {
+			/*if (menu.itemSelectione() == 1 && event.type == Event::KeyPressed && event.key.code == Keyboard::Enter) {
 				jeu.clear();
 				partieDemarree = true;
 				menuDisplay = false;
@@ -134,23 +134,23 @@ int main()
 			if (menu.itemSelectione() == 2 && event.type == Event::KeyPressed && event.key.code == Keyboard::Enter) {
 				event.type = Event::Closed;
 				window.close();
-			}
+			}*/
 
 			//Déplacement dans le menu joystick
-			/*if (Joystick::getAxisPosition(0, Joystick::Y) < -30) {
+			if (Joystick::getAxisPosition(0, Joystick::Y) < -30) {
 				menu.monter();
 			}
 			if (Joystick::getAxisPosition(0, Joystick::Y) > 30) {
 				menu.descendre();
-			}*/
+			}
 
 			//Déplacement dans le menu clavier
-			if (event.type == Event::KeyPressed && event.key.code == Keyboard::Up){
+			/*if (event.type == Event::KeyPressed && event.key.code == Keyboard::Up){
 				menu.monter();
 			}
 			if (event.type == Event::KeyPressed && event.key.code == Keyboard::Down) {
 				menu.descendre();
-			}
+			}*/
 
 		window.clear(Color(204, 204, 204));	//Ici on peut régler la couleur d'arrière plan de la fenêtre		
 

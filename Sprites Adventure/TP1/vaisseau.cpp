@@ -13,33 +13,33 @@ void Vaisseau::actualiserEtat(Event const &event)
 {
 	//Gestion au JOYSTICK
 
-	//if (!Joystick::isConnected(0)) {
-	//	/*cout << "Joystick non connecte ! " << endl;*/
-	//   }
+	if (!Joystick::isConnected(0)) {
+		cout << "Joystick non connecte ! " << endl;
+	  }
 
-	//if (Joystick::getAxisPosition(0, Joystick::Y) < -30) {
-	//	accelerationEnCours = true;
-	//}
-	//else {
-	//	accelerationEnCours = false;
-	//}
+	if (Joystick::getAxisPosition(0, Joystick::Y) < -30) {
+		accelerationEnCours = true;
+	}
+	else {
+		accelerationEnCours = false;
+	}
 
-	//if (Joystick::getAxisPosition(0, Joystick::R) > 80 ) {
-	//	tournerDroite = true;		
-	//}
-	//else {
-	//	tournerDroite = false;
-	//}
+	if (Joystick::getAxisPosition(0, Joystick::X) > 80 ) {
+		tournerDroite = true;		
+	}
+	else {
+		tournerDroite = false;
+	}
 
-	//if (Joystick::getAxisPosition(0, Joystick::R) < -80) {
-	//	tournerGauche = true;		
-	//}
-	//else {
-	//	tournerGauche = false;
-	//}
+	if (Joystick::getAxisPosition(0, Joystick::X) < -80) {
+		tournerGauche = true;		
+	}
+	else {
+		tournerGauche = false;
+	}
 	
 	//Gestion au CLAVIER
-
+	/*
 	if (event.type == Event::KeyPressed && event.key.code == Keyboard::Up) {
 		accelerationEnCours = true;
 	}
@@ -59,7 +59,7 @@ void Vaisseau::actualiserEtat(Event const &event)
 	}
 	else if (event.type == Event::KeyReleased && event.key.code == Keyboard::Right) {
 		tournerDroite = false;
-	}
+	}*/
 }
 
 void Vaisseau::mettreAJour(float deltaT) 

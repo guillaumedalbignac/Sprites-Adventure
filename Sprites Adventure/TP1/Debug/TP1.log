@@ -1,2 +1,8 @@
-﻿  explosion.cpp
+﻿  projectile.cpp
+c:\users\dalbi\desktop\dec\hiver_2021\maintenace portefolio\ticket 5 et 6\sprites-adventure\sprites adventure\tp1\projectile.cpp(99): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+  LINK : C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\Sprites Adventure\Debug\TP1.exe introuvable ou non gÚnÚrÚ par la derniÞre Údition de liens incrÚmentielleá; Údition de liens complÞte en cours
   TP1.vcxproj -> C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace Portefolio\Ticket 5 et 6\Sprites-Adventure\Sprites Adventure\Debug\TP1.exe
