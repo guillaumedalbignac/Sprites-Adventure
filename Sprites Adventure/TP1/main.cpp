@@ -106,7 +106,7 @@ int main()
 			} 
 
 			//Restart de la partie joystick
-			if (Joystick::isButtonPressed(0, 2)) {
+			if (Joystick::isButtonPressed(0, 3)) {
 				jeu.clear();
 				scoreFinal = 0;
 				score.mettreAJour(0);

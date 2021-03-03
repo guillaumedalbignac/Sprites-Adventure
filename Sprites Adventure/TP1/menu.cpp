@@ -72,7 +72,7 @@ void Menu::descendre()
 void Menu::afficherGameOver(RenderWindow & window)
 {
 	text.setFont(font);
-	text.setString("Game Over ! Press R to restart");
+	text.setString("Game Over ! Press Y to restart");
 	text.setFillColor(Color::Black);
 	text.setPosition(50, 350);
 	text.setStyle(Text::Italic && Text::Bold);
