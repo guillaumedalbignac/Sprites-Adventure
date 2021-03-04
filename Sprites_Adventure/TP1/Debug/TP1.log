@@ -1,0 +1,22 @@
+﻿  asteroide.cpp
+c:\users\dalbi\desktop\dec\hiver_2021\maintenace_portefolio\ticket_5_et_6\sprites-adventure\sprites_adventure\tp1\asteroide.cpp(16): warning C4244: 'initialisation' : conversion de 'int' en 'float', perte possible de données
+  explosion.cpp
+  main.cpp
+  menu.cpp
+  ovni.cpp
+  projectile.cpp
+c:\users\dalbi\desktop\dec\hiver_2021\maintenace_portefolio\ticket_5_et_6\sprites-adventure\sprites_adventure\tp1\projectile.cpp(99): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+  score.cpp
+  son.cpp
+  vaisseau.cpp
+c:\users\dalbi\desktop\dec\hiver_2021\maintenace_portefolio\ticket_5_et_6\sprites-adventure\sprites_adventure\tp1\vaisseau.cpp(102): warning C4244: 'argument' : conversion de 'double' en 'T', perte possible de données
+          with
+          [
+              T=float
+          ]
+  Génération de code en cours...
+  TP1.vcxproj -> C:\Users\dalbi\Desktop\DEC\Hiver_2021\Maintenace_Portefolio\Ticket_5_et_6\Sprites-Adventure\Sprites_Adventure\Debug\TP1.exe
